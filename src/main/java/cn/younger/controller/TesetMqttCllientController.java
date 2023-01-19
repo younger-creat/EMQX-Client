@@ -59,6 +59,7 @@ public class TesetMqttCllientController {
         System.out.println(mqttCallBackContext.getCallBackMap());
         //创建客户端并连接（注：这里）
         mqttClientCreate.createMqttClient();
+        System.out.println("客户端创建完成");
     }
 
     /**
