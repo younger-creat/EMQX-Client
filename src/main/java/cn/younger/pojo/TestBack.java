@@ -16,5 +16,6 @@ public class TestBack extends AbsMqttCallBack {
     public void handleReceiveMessage(String topic, String messageStr){
         System.out.println("younger自己的回调函数接收到的信息是：" + messageStr);
         System.out.println("代码合并");
+        System.out.println("younger自己的回调函数接收到的信息是(测试)：" + messageStr);
     }
 }
