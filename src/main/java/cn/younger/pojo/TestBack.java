@@ -14,6 +14,6 @@ import org.springframework.stereotype.Component;
 public class TestBack extends AbsMqttCallBack {
     @Override
     public void handleReceiveMessage(String topic, String messageStr){
-        System.out.println("younger自己的回调函数接收到的信息是：" + messageStr);
+        System.out.println("younger自己的回调函数接收到的信息是(测试)：" + messageStr);
     }
 }
