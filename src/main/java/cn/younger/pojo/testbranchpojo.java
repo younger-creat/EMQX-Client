@@ -9,7 +9,7 @@ package cn.younger.pojo;
  */
 public class testbranchpojo {
     public void branch(){
-        System.out.println("主分支修改");
+        System.out.println("主修改");
     }
 
 }
