@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+customer:
+  mqtt:
+    clientVOList:
+        #客户端ID
+      - clientId: younger9527
+        #监听主题
+        subscribeTopic: testtopic/#
+        #用户名
+        username:
+        #密码
+        password:
+        #连接超时时间
+        timeout: 30
+        #心跳时间
+        keepAliveTime: 50
+        #服务器地址
+        broker: tcp://120.77.65.48:1883
+        #是否情况session
+        flag: true
+      - clientId: younger9526
+        #监听主题
+        subscribeTopic: testtopic/#
+        #用户名
+        username:
+        #密码
+        password:
+        #连接超时时间
+        timeout: 30
+        #心跳时间
+        keepAliveTime: 50
+        #服务器地址
+        broker: tcp://120.77.65.48:1883
+        #是否情况session
+        flag: true
